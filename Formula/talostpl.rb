@@ -3,7 +3,7 @@ class Talostpl < Formula
   homepage "https://github.com/vasyakrg/talostpl"
 
   on_arm do
-    url "https://github.com/vasyakrg/talostpl/releases/download/v1.0.0/talostpl-darwin-amd64"
+    url "https://github.com/vasyakrg/talostpl/releases/download/v1.0.0/talostpl-darwin-arm64"
     sha256 "580d4dd9e7f8e8182f265ea946002c22ed653222ab617e374ba48b1b28d08466"
   end
 
