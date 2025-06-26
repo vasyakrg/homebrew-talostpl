@@ -9,10 +9,8 @@ class Talostpl < Formula
 
   on_intel do
     url "https://github.com/vasyakrg/talostpl/releases/download/v1.0.0/talostpl-darwin-amd64"
-    sha256 "<PUT_SHA256_FOR_AMD64_HERE>"
+    sha256 "9843d546bd541b9bf58e2e1c3c85aa8ff0b2f3705630b84b9123be55a99d5202"
   end
-
-  version "1.0.0"
 
   def install
     arch = Hardware::CPU.arm? ? "arm64" : "amd64"
