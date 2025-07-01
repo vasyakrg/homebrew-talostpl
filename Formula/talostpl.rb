@@ -1,9 +1,9 @@
 class Talostpl < Formula
   desc "Interactive and non-interactive Talos K8s config generator"
   homepage "https://github.com/vasyakrg/talostpl"
-  version "1.0.5"
-  url "https://github.com/vasyakrg/talostpl/releases/download/v1.0.5/talostpl-darwin-arm64"
-  sha256 "a4ebf148959eff3cefa13c66e162fe2713ef58d26deb4b421cf91343ca85bbc2"
+  version ""
+  url "https://github.com/vasyakrg/talostpl/releases/download/v/talostpl-darwin-arm64"
+  sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
 
   def install
     bin.install "talostpl-darwin-arm64" => "talostpl"
