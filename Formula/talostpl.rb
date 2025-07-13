@@ -9,7 +9,7 @@ class Talostpl < Formula
       verified: "github.com/vasyakrg/talostpl/"
     sha256 "429e20e375ee071742ab2ab520b0179d4ac743d89152cf9b018896b6bf67c1f4"
   elsif OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/vasyakrg/talostpl/releases/download/v1.1.3/talostpl-darwin-amd64",
+    url "https://github.com/vasyakrg/talostpl/releases/download/v1.1.3/talostpl-darwin-arm64",
       verified: "github.com/vasyakrg/talostpl/"
     sha256 "2a159a50af386dc73ac259a8a35564d6cfc987f78defb71223c6540a6227db0c"
   else
