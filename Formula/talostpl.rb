@@ -1,17 +1,17 @@
 class Talostpl < Formula
   desc "Interactive and non-interactive Talos K8s config generator"
   homepage "https://github.com/vasyakrg/talostpl"
-  version "1.3.2"
+  version "1.4.1"
   license "Apache-2.0"
 
   if OS.mac? && Hardware::CPU.intel?
-    url "https://github.com/vasyakrg/talostpl/releases/download/v1.3.2/talostpl-darwin-amd64",
+    url "https://github.com/vasyakrg/talostpl/releases/download/v1.4.1/talostpl-darwin-amd64",
       verified: "github.com/vasyakrg/talostpl/"
-    sha256 "37c7ba93f6f3d9c60df30e3e2b1e66c45f42f03e00181b873e85c7c5299a3769"
+    sha256 "b8e10ca653eddf6a0a0a5f09ce35b203e71db59b7ff4f9f0b850209c0f830fff"
   elsif OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/vasyakrg/talostpl/releases/download/v1.3.2/talostpl-darwin-arm64",
+    url "https://github.com/vasyakrg/talostpl/releases/download/v1.4.1/talostpl-darwin-arm64",
       verified: "github.com/vasyakrg/talostpl/"
-    sha256 "78aa2caed59a6c69a11770873c46ab7f07ccc66020acc3d0d36664bc865b0c3f"
+    sha256 "c18c9bda37b7a20dfa602f625412425450fcfba04d9b0282fb22a8f9b40d75b7"
   else
     odie "Unexpected platform!"
   end
